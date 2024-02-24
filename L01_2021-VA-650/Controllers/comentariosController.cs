@@ -61,7 +61,7 @@ namespace L01_2021_VA_650.Controllers
 
             comentario.PublicacionId = comentarioActualizado.PublicacionId;
             comentario.UsuarioId = comentarioActualizado.UsuarioId;
-            comentario.Contenido = comentarioActualizado.Contenido;
+            comentario.comentario = comentarioActualizado.comentario;
 
             _blogDBContexto.SaveChanges();
 

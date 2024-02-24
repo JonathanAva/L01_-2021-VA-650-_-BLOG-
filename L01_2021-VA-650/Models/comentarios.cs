@@ -7,7 +7,7 @@ namespace L01_2021_VA_650.Models
         [Key]
         public int ComentarioId { get; set; }
         public int PublicacionId { get; set; }
+        public string? comentario { get; set; }
         public int UsuarioId { get; set; }
-        public string? Contenido { get; set; }
     }
 }

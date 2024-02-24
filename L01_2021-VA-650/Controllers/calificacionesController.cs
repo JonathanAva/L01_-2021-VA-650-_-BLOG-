@@ -62,7 +62,7 @@ namespace L01_2021_VA_650.Controllers
 
             calificacion.PublicacionId = calificacionActualizada.PublicacionId;
             calificacion.UsuarioId = calificacionActualizada.UsuarioId;
-            calificacion.ValorCalificacion = calificacionActualizada.ValorCalificacion;
+            calificacion.calificacion = calificacionActualizada.calificacion;
 
             _blogDBContexto.SaveChanges();
 
